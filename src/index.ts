@@ -4,4 +4,5 @@
  * @description Index
  */
 
+export * from "./pile";
 
