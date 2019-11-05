@@ -35,6 +35,43 @@ export class Pile<T extends any> {
         return this;
     }
 
+    public cleanUp(func: (each: T) => any): this {
+
+        for (const each of this._pile.values()) {
+            func(each);
+        }
+        this.clear();
+
+        return this;
+    }
+
+    public conclusion<C extends any = any>(func: (key: string, value: T) => C): C[] {
+
+        const results: C[] = this.map<C>(func);
+        this.clear();
+
+        return results;
+    }
+
+    public map<C extends any = any>(func: (key: string, value: T) => C): C[] {
+
+        const results: C[] = [];
+        for (const each of this._pile.entries()) {
+            results.push(func(each[0], each[1]));
+        }
+
+        return results;
+    }
+
+    public forEach(func: (key: string, value: T) => any): this {
+
+        for (const each of this._pile.entries()) {
+            func(each[0], each[1]);
+        }
+
+        return this;
+    }
+
     public assertGet(key: string): T {
 
         const value: T | undefined = this.get(key);
