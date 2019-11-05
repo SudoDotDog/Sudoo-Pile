@@ -1,0 +1,41 @@
+{
+  "name": "@sudoo/pile",
+  "version": "1.0.0",
+  "description": ":bouquet: A Pile of Things",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudoDotDog/Sudoo-Pile.git"
+  },
+  "keywords": [
+    "ronpa"
+  ],
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SudoDotDog/Sudoo-Pile/issues"
+  },
+  "homepage": "https://github.com/SudoDotDog/Sudoo-Pile#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@sudoo/io": "^1.6.1",
+    "@sudoo/triforce": "^1.9.0"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "instrument": true,
+    "reporter": [
+      "json",
+      "text-summary"
+    ],
+    "report-dir": "coverage",
+    "require": [
+      "./test/tshook.js"
+    ],
+    "sourceMap": true
+  }
+}
