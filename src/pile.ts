@@ -45,7 +45,7 @@ export class Pile<T extends any> {
         return this;
     }
 
-    public conclusion<C extends any = any>(func: (key: string, value: T) => C): C[] {
+    public conclude<C extends any = any>(func: (key: string, value: T) => C): C[] {
 
         const results: C[] = this.map<C>(func);
         this.clear();
