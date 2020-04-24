@@ -12,6 +12,9 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 # Build
 app
 
+# Lock
+yarn.lock
+
 # Runtime data
 pids
 *.pid
