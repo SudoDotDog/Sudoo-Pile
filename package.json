@@ -7,7 +7,7 @@
     "url": "git+https://github.com/SudoDotDog/Sudoo-Pile.git"
   },
   "keywords": [
-    "ronpa"
+    "Sudoo"
   ],
   "author": "WMXPY",
   "license": "MIT",
@@ -17,8 +17,8 @@
   "homepage": "https://github.com/SudoDotDog/Sudoo-Pile#readme",
   "dependencies": {},
   "devDependencies": {
-    "@sudoo/io": "^1.6.1",
-    "@sudoo/triforce": "^1.9.0"
+    "@sudoo/io": "^1.7.0",
+    "@sudoo/triforce": "^2.3.1"
   },
   "nyc": {
     "extension": [
