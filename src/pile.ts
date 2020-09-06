@@ -6,7 +6,7 @@
 
 export class Pile<T extends any> {
 
-    public static create<T extends any>() {
+    public static create<T extends any>(): Pile<T> {
 
         return new Pile<T>();
     }
