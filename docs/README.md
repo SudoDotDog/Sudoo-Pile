@@ -23,4 +23,5 @@ import { Pile } from "@sudoo/pile";
 const pile: Pile<string> = Pile.create();
 pile.add(key, value);
 pile.get(key); // value
+pile.conclude((key, value) => {key, value}); // [{key, value}, {key2, value2}]
 ```
