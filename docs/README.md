@@ -6,3 +6,11 @@
 [![downloads](https://img.shields.io/npm/dm/@sudoo/pile.svg)](https://www.npmjs.com/package/@sudoo/pile)
 
 :bouquet: A Pile of Things
+
+## Install
+
+```sh
+npm install @sudoo/pile --save
+# Or
+yarn add @sudoo/pile
+```
