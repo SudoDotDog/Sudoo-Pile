@@ -14,3 +14,13 @@ npm install @sudoo/pile --save
 # Or
 yarn add @sudoo/pile
 ```
+
+## Usage
+
+```ts
+import { Pile } from "@sudoo/pile";
+
+const pile: Pile<string> = Pile.create();
+pile.add(key, value);
+pile.get(key); // value
+```
