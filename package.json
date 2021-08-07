@@ -1,7 +1,7 @@
 {
   "name": "@sudoo/pile",
   "version": "1.0.0",
-  "description": ":bouquet: A Pile of Things",
+  "description": "A Pile of Things",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SudoDotDog/Sudoo-Pile.git"
