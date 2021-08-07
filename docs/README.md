@@ -1,6 +1,6 @@
 # Sudoo-Pile
 
-[![Build Status](https://travis-ci.com/SudoDotDog/Sudoo-Pile.svg?branch=master)](https://travis-ci.com/SudoDotDog/Sudoo-Pile)
+[![Continuous Integration](https://github.com/SudoDotDog/Sudoo-Pile/actions/workflows/ci.yml/badge.svg)](https://github.com/SudoDotDog/Sudoo-Pile/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/SudoDotDog/Sudoo-Pile/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Sudoo-Pile)
 [![npm version](https://badge.fury.io/js/%40sudoo%2Fpile.svg)](https://badge.fury.io/js/%40sudoo%2Fpile)
 [![downloads](https://img.shields.io/npm/dm/@sudoo/pile.svg)](https://www.npmjs.com/package/@sudoo/pile)
